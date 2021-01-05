@@ -24,7 +24,7 @@ learning, presented in this notebook.
 
 Pumping tests are a common content in the toolbox of a hydro-geologist. In a pumping test the drawdown of the water table due to pumping is recorded. The observed data are evaluated to obtain basic properties of the aquifer, the permeable geological layer containing groundwater (Figure 1). 
 In the past decades several methods have been developed to perform the evaluation task in practice. Mathematically one may describe them as inverse modelling procedures. Most of these are based on analytical solutions of the differential equation in 1D. The approach is valid only under highly idealized conditions: homogeneity, isotropy, ideal well, infinite extend, etc.
-In the past graphical methods have been favoured, derived from the solutions of Thiem [thiem:1906] for the stationary case, and Theis (1937) if time-dependent drawdown has been recorded. Extensions for the leaky aquifer that is overlain by a semi-permeable layer, were presented by de Glee (1930) for the steady state and Hantush (1955, 1956) for the time dependent case. Numerous further extensions have been developed for special cases [@renard:2005]. Nowadays the evaluation is mostly done on a computer. 
+In the past graphical methods have been favoured, derived from the solutions of Thiem [thiem:1906] for the stationary case, and Theis [theis:1935] if time-dependent drawdown has been recorded. Extensions for the leaky aquifer that is overlain by a semi-permeable layer, were presented by de Glee [deglee:1930] for the steady state and Hantush (1955, 1956) for the time dependent case. Numerous further extensions have been developed for special cases [@renard:2005]. Nowadays the evaluation is mostly done on a computer. 
 
 # Statement of Need
 
