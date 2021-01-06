@@ -30,7 +30,7 @@ In the past graphical methods have been favoured, derived from the solutions of 
 
 # Statement of Need
 
-@cleveland:1996 presented an evaluation method that can be operated on an EXCEL spreadsheet, mimicking the graphical method for solving the Theis equations. @LP described how this method can be applied to student teaching. 
+@cleveland:1996 presented an evaluation method that can be operated on an EXCEL spreadsheet, mimicking the graphical method for solving the Theis equations. @LP:2013 described how this method can be applied to student teaching. 
 
 The Hytool package (Renard 2003) was developed for MATLAB® users. There is a large palette of special cases included, concerning large diameter wells, fractured aquifers, slug tests, etc. The package is open source and can be accessed via GitHub [@renard:2020]. Parts of the functionality of the Hytool package is available in R [@bertone], or in Python [@pianaro]. 
 
