@@ -26,7 +26,7 @@ Pumping tests are a common content in the toolbox of a hydro-geologist. In a pum
 
 In the past decades several methods have been developed to perform the evaluation task in practice. Mathematically one may describe them as inverse modelling procedures. Most of these are based on analytical solutions of the differential equation in 1D. The approach is valid only under highly idealized conditions: homogeneity, isotropy, ideal well, infinite extend, etc.
 
-In the past graphical methods have been favoured, derived from the solutions of @thiem for the stationary case, and @theis:1935, if time-dependent drawdown has been recorded. Extensions for the leaky aquifer that is overlain by a semi-permeable layer, were presented by @deglee:1930 for the steady state and Hantush (1955, 1956) for the time dependent case. Numerous further extensions have been developed for special cases [@renard:2005]. Nowadays the evaluation is mostly done on a computer. 
+In the past graphical methods have been favoured, derived from the solutions of @thiem for the stationary case, and @theis:1935, if time-dependent drawdown has been recorded. Extensions for the leaky aquifer that is overlain by a semi-permeable layer, were presented by @deglee:1930 for the steady state as well as @HJ:1955 and @hantush:1956 for the time dependent case. Numerous further extensions have been developed for special cases [@renard:2005]. Nowadays the evaluation is mostly done on a computer. 
 
 # Statement of Need
 
@@ -41,7 +41,7 @@ A notebook using the Oude Korendijk pump test as example was presented by @olsth
 
 # The Jupyter Implementation
 
-An introduction into the topic on a Jupiter notebook was put on the web by @olsthoorn. This implementation was the starting point for the implementation that is presented here. In the Olsthoorn notebook field data from a real test were utilized to demonstrate several evaluation methods. The Oude Korendijk test [@wit:1963], performed in the Netherlands in 1962, was selected as a reference in many publications and in the popular textbook of Kruseman & de Ridder [@KdR:1994]. The described implementation followed in this respect. The Olthoorn notebook was completely redesigned and extended.  
+An introduction into the topic on a Jupiter notebook was put on the web by @olsthoorn. This implementation was the starting point for the implementation that is presented here. In the Olsthoorn notebook field data from a real test were utilized to demonstrate several evaluation methods. The Oude Korendijk test [@wit:1963], performed in the Netherlands in 1962, was selected as a reference in many publications and in the popular textbook of @KdR:1994. The described implementation followed in this respect. The Olthoorn notebook was completely redesigned and extended.  
 
 The notebook introduces several evaluation methods. First the methods are presented that utilize only the steady state or steady shape data: Thiem for confined and unconfined aquifers, as well as de Glee for a leaky aquifer. In what follows the notebook focuses on the more common task that is based on time series of drawdown values. There are options to visualize the data on linear or logarithmic axes. The method of @CJ:1946 utilizes the fact that in the semi-logarithmic coordinate system the data roughly follow a straight line. The aquifer characteristics can be obtained from the slope and zero of the line. The notebook demonstrates this for the example dataset of the Oude Korendijk pump test. 
 
