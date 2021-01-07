@@ -30,12 +30,12 @@ In the past graphical methods have been favoured, derived from the solutions of 
 
 # Statement of Need
 
-@cleveland:1996 presented an evaluation method that can be operated on an EXCEL spreadsheet, mimicking the graphical method for solving the Theis equations. @LP:2013 described how this method can be applied to student teaching. 
+@cleveland:1996 presented an evaluation method that can be operated on an EXCEL spreadsheet, mimicking the graphical method for matching the Theis typecurve. @LP:2013 described how this method can be applied to student teaching. 
 
 The Hytool package [@renard:2017] was developed for MATLAB® users. There is a large palette of special cases included, concerning large diameter wells, fractured aquifers, slug tests, etc. The package is open source and can be accessed via GitHub [@renard:2020]. Parts of the functionality of the Hytool package is available in R [@bertone], or in Python [@pianaro]. 
 
 There are commercial programs also. The most important one, @aqtesolv works on WINDOWS operating systems, which covers many more special evaluation methods.
-For instructions in the classroom none of these installations is really satisfactory. In all freely available methods previous knowledge is required: either EXCEL, MATLAB®, R or Python. Aside from the financial side the commercial software has the disadvantage that it is available only on WINDOWS. 
+For instructions in the classroom none of these installations is really satisfactory. In all freely available methods previous knowledge on operating the software is required: either EXCEL, MATLAB®, R or Python. Aside from the financial side the commercial software has the disadvantage that it is available only on WINDOWS. 
     
 A notebook using the Oude Korendijk pump test as example was presented by @olsthoorn. However this concerned evaluation based on Theis, and did not include methods based on stationary data, neither parameter estimation, nor methods for leaky aquifers. Moreover, the graphical methods were pre-defined and did not give the user options for own explorations. 
 
@@ -56,7 +56,11 @@ Parameter estimation is used for the de Glee solution in case of stationary data
 The notebook was written for an online lecture on hydraulic testing,  more specifically for the topic of pumping test evaluations. It was deployed in the lectures for undergraduates at German University of Technology in Oman in 2020. The notebook was made available and operable to the students by myBinder [@binder]. Using the link, no special software installations from side of the students are required.
 The students were instructed to hide the code and to run all cells at start. Thus the initialization (library import, data reading and the creation of the user interface elements) is performed first. The notebook is written in a manner to allow the examination of the different evaluation methods by clicking the corresponding buttons.
  
+![Figure 2: Visualization of pump test input data in semi-log coordinates](Figure2.png) 
+ 
 Figure 2 is a visualization of the input data in semi-log coordinates. Figure 3 demonstrates curve matching by the operation of sliders. The data curve (dots) is shifted in the direction of the coordinate axes in dependence of the operation of the sliders. The aim is to match the dots with the type curve (blue). Former positions of the dots are depicted in grey. The positions corresponding to the actual values of the sliders are shown in orange.  Figure 4 shows the outcome of a parameter estimation run. Observed values and type curve are plotted as in the previous figure. The resulting parameter values (T for transmissivity, S for storativity) are given in the plot, as well as the measures of fit.  
+
+![Figure 4: Example output from a parameter estimation run](Figure4.png)
 
 The notebook contains tasks that the students are to do.  The tasks let them explore the different evaluation methods.  A task sheet was distributed to the students to note and compare the results that they obtain with the different methods. Evaluations of stationary data are based on two measurements at different locations.  As four positions have been observed in the example test, the students were instructed to perform the evaluations using different pairs of locations. Thus they can obtain an understanding of the sensitivity of the method on the measurements. 
 
