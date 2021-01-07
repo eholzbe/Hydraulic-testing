@@ -26,13 +26,13 @@ Pumping tests are a common content in the toolbox of a hydro-geologist. In a pum
 
 In the past decades several methods have been developed to perform the evaluation task in practice. Mathematically one may describe them as inverse modelling procedures. Most of these are based on analytical solutions of the differential equation in 1D. The approach is valid only under highly idealized conditions: homogeneity, isotropy, ideal well, infinite extend, etc.
 
-In the past graphical methods have been favoured, derived from the solutions of @thiem for the stationary case, and @theis:1935, if time-dependent drawdown has been recorded. Extensions for the leaky aquifer that is overlain by a semi-permeable layer, were presented by @deglee:1930 for the steady state as well as @HJ:1955 and @hantush:1956 for the time dependent case. Numerous further extensions have been developed for special cases [@renard:2005]. Nowadays the evaluation is mostly done on a computer. 
+In the past graphical methods have been favoured, derived from the solutions of @thiem for the stationary case, and @theis:1935, if time-dependent drawdown has been recorded. Extensions for the leaky aquifer that is overlain by a semi-permeable layer, were presented by @deglee:1930 for the steady state and by @HJ:1955 as well as @hantush:1956 for the time dependent case. Numerous further extensions have been developed for special cases [@renard:2005]. Nowadays the evaluation is mostly done on a computer. 
 
 # Statement of Need
 
 @cleveland:1996 presented an evaluation method that can be operated on an EXCEL spreadsheet, mimicking the graphical method for solving the Theis equations. @LP:2013 described how this method can be applied to student teaching. 
 
-The Hytool package (Renard 2003) was developed for MATLAB® users. There is a large palette of special cases included, concerning large diameter wells, fractured aquifers, slug tests, etc. The package is open source and can be accessed via GitHub [@renard:2020]. Parts of the functionality of the Hytool package is available in R [@bertone], or in Python [@pianaro]. 
+The Hytool package [@renard:2017] was developed for MATLAB® users. There is a large palette of special cases included, concerning large diameter wells, fractured aquifers, slug tests, etc. The package is open source and can be accessed via GitHub [@renard:2020]. Parts of the functionality of the Hytool package is available in R [@bertone], or in Python [@pianaro]. 
 
 There are commercial programs also. The most important one, @aqtesolv works on WINDOWS operating systems, which covers many more special evaluation methods.
 For instructions in the classroom none of these installations is really satisfactory. In all freely available methods previous knowledge is required: either EXCEL, MATLAB®, R or Python. Aside from the financial side the commercial software has the disadvantage that it is available only on WINDOWS. 
@@ -45,7 +45,7 @@ An introduction into the topic on a Jupiter notebook was put on the web by @olst
 
 The notebook introduces several evaluation methods. First the methods are presented that utilize only the steady state or steady shape data: Thiem for confined and unconfined aquifers, as well as de Glee for a leaky aquifer. In what follows the notebook focuses on the more common task that is based on time series of drawdown values. There are options to visualize the data on linear or logarithmic axes. The method of @CJ:1946 utilizes the fact that in the semi-logarithmic coordinate system the data roughly follow a straight line. The aquifer characteristics can be obtained from the slope and zero of the line. The notebook demonstrates this for the example dataset of the Oude Korendijk pump test. 
 
-The classical graphical method is to match the data with the Theis type curve. Instead of using a printout of the data and transparent paper the user can explore the procedure in the notebook. Moreover, the user has the possibility to obtain a measure of the fit, either by the residual or by the standard deviation. In the final part of the notebook the user can run numerical parameter estimation algorithms, either for the confined or for the leaky aquifer, based on the solutions of @theis:1935 or Hantush (1955, 1956).           
+The classical graphical method is to match the data with the Theis type curve. Instead of using a printout of the data and transparent paper the user can explore the procedure in the notebook. Moreover, the user has the possibility to obtain a measure of the fit, either by the residual or by the standard deviation. In the final part of the notebook the user can run numerical parameter estimation algorithms, either for the confined or for the leaky aquifer, based on the solutions of @theis:1935 or @hantush:1956.           
 
 The notebook not only explains the various methods, but also gives the user options to explore the methods. Buttons initiate different graphical representations of data, the computation of goodness of fit, and the run of parameter optimization algorithms. The classical graphical method of curve matching is mimicked by sliders that the user can operate to shift the observation data set horizontally and vertically (Figure 3). For parameter estimation there are input fields in which initial guesses have to be entered. This allows the user to explore if and how results depend on the starting points. In addition the user has the option to choose between the two time series of the Oude Korendijk pump test. Thus one can obtain an idea about the variability and the uncertainty of the results. 
 
@@ -63,20 +63,6 @@ The notebook contains tasks that the students are to do.  The tasks let them exp
 Concerning the time-dependent case the students were required to apply the graphical method and parameter estimations (Theis and Hantush) and check their goodness of fit. They were instructed to note all their results in tabular form and draw conclusions from the comparison. Based on their work they were asked which parameter values for the aquifer characteristics, transmissivity and storativity, they would write as final result in a report. They were also asked about what the evaluation reveals about the type of the aquifer (confined, unconfined, leaky). 
 
 In a questionnaire at the end of the lecture 82 % of the 52 students found the notebook easy to understand, 92% found it easy to operate and 58% would recommend use of notebooks in future lectures.
-
-# Citations
-
-Citations to entries in paper.bib should be in
-[rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html)
-format.
-
-If you want to cite a software repository URL (e.g. something on GitHub without a preferred
-citation) then you can do it with the example BibTeX entry below for @fidgit.
-
-For a quick reference, the following citation commands can be used:
-- `@author:2001`  ->  "Author et al. (2001)"
-- `[@author:2001]` -> "(Author et al., 2001)"
-- `[@author1:2001; @author2:2001]` -> "(Author1 et al., 2001; Author2 et al., 2002)"
 
 # Figures
 
