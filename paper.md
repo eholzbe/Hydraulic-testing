@@ -74,13 +74,4 @@ Concerning the time-dependent case the students were required to apply the graph
 
 In a questionnaire at the end of the lecture 82 % of the 52 students found the notebook easy to understand, 92% found it easy to operate and 58% would recommend use of notebooks in future lectures.
 
-# Figures
-
-Figures can be included like this:
-![Caption for example figure.\label{fig:example}](figure.png)
-and referenced from text using \autoref{fig:example}.
-
-Figure sizes can be customized by adding an optional second parameter:
-![Caption for example figure.](figure.png){ width=20% }
-
 # References
