@@ -24,7 +24,7 @@ learning, presented in this notebook.
 
 Pumping tests are a common content in the toolbox of a hydro-geologist. In a pumping test the drawdown of the water table due to pumping is recorded. The observed data are evaluated to obtain basic properties of the aquifer, the permeable geological layer containing groundwater (Figure 1). 
 
-![Sketch of pump test set-up](Figure1.svg)
+![Sketch of pump test set-up](Figure1.eps)
 
 In the past decades several methods have been developed to perform the evaluation task in practice. Mathematically one may describe them as inverse modelling procedures. Most of these are based on analytical solutions of the differential equation in 1D. The approach is valid only under highly idealized conditions: homogeneity, isotropy, ideal well, infinite extend, etc.
 
