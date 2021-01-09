@@ -67,11 +67,11 @@ In a questionnaire at the end of the lecture 82 % of the 52 students found the n
 
 # Figures
 
-![Sketch of pump test set-up](Figure1.eps, width=50%) 
+![Sketch of pump test set-up](Figure1.eps){width=50%} 
 
 ![Visualization of pump test input data in semi-log coordinates](Figure2.png) 
 
-![Graphical evaluation using sliders](Figure3.png)
+![Graphical evaluation using sliders](Figure3.png){width=50%}
 
 ![Example output from a parameter estimation run](Figure4.png)
 
