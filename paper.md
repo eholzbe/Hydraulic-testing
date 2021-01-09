@@ -71,7 +71,7 @@ In a questionnaire at the end of the lecture 82 % of the 52 students found the n
 
 ![Visualization of pump test input data in semi-log coordinates](Figure2.png) 
 
-![Graphical evaluation using sliders](Figure3.png){width=50%}
+![Graphical evaluation using sliders](Figure3.png)
 
 ![Example output from a parameter estimation run](Figure4.png)
 
