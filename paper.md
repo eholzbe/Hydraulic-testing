@@ -23,7 +23,7 @@ A Jupyter notebook is presented that introduces methods for pumping test evaluat
 
 Pumping tests are a common option in the toolbox of a hydro-geologist. In a pumping test one records the drawdown of the water table due to pumping. The evaluation of the observed data gives values for the basic properties of the aquifer, that is a permeable geological layer containing groundwater (Figure 1). It is assumed that the user is familiar with technical and practical issues of pump tests, as the notebook deals only with the evaluation of the test data. It provides an introduction on classical graphical methods as well as currently favoured computational methods. 
 
-Before the advance of computers graphical methods have been developed, that can basically be described as type curve matching. The type curve is obtained from the solution of @theis:1935 that has been derived for confined aquifers (which are overlain by an impermeable layer). Extensions for the leaky aquifer that is overlain by a semi-permeable layer, were developed by @HJ:1955 as well as @hantush:1956. Nowadays the evaluation is mostly done on a computer. Mathematically one may describe these methods as inverse modelling procedures. For the mentioned aquifers the numerical methods depend on the same solutions. For the professional practice numerous further extensions have been developed for special cases [@renard:2005], which are not outlined in this introduction for novices to the field. 
+Before the advance of computers graphical methods have been developed, that can basically be described as type curve matching. The type curve is obtained from the solution of @theis:1935 that has been derived for confined aquifers (which are overlain by an impermeable layer). Extensions for the leaky aquifer that is overlain by a semi-permeable layer, were developed by @HJ:1955 and @hantush:1956. Nowadays the evaluation is mostly done on a computer. Mathematically one may describe these methods as inverse modelling procedures. For the mentioned aquifers the numerical methods depend on the same solutions. For the professional practice numerous further extensions have been developed for special cases [@renard:2005], which are not outlined in this introduction for novices to the field. 
 
 # Statement of Need
 
@@ -39,7 +39,7 @@ For instructions in the classroom none of these installations is really satisfac
 
 The notebook by @olsthoorn gave the initial idea for the here presented implementation. A pump test [@wit:1963], performed in the Netherlands and popularized by the well-established textbook of @KdR:1994, is used for demonstrating several evaluation methods. So far this basic idea is also followed here. In the presented hydraulic testing notebook further methods for different aquifer types are introduced. Moreover the notebook has been set up in a way that users who are unskilled in computational methods can perform all operations easily using buttons, checkboxes, and sliders.  
 
-At first, for instructors we briefly describe some technical aspects. The notebook starts with methods that utilize the steady state or steady shape data only: @thiem for confined and unconfined aquifers, as well as de Glee @deglee:1930 for leaky aquifers. Concerning the more common task based on time series data the graphical method of is outlined, where the aquifer characteristics are obtained from the slope and zero of a straight line. The classical graphical method is to match the data with the Theis type curve using a transparent paper sheet. In the notebook the user can explore this procedure using sliders. 
+At first, for instructors we briefly describe some technical aspects. The notebook starts with methods that utilize the steady state or steady shape data only: @thiem for confined and unconfined aquifers, as well as @deglee:1930 for leaky aquifers. Concerning the more common task based on time series data the graphical method of is outlined, where the aquifer characteristics are obtained from the slope and zero of a straight line. The classical graphical method is to match the data with the Theis type curve using a transparent paper sheet. In the notebook the user can explore this procedure using sliders. 
 
 Figure 2 is a visualization of the input data in semi-log coordinates. Figure 3 demonstrates curve matching by the operation of sliders. The data curve (dots) is shifted in the direction of the coordinate axes depending upon the operation of the sliders. The aim is to match the dots with the type curve (blue). Former positions of the dots are depicted in grey. The positions corresponding to the actual values of the sliders are shown in orange.  
 
@@ -60,10 +60,10 @@ A task sheet was distributed to the students to note and compare the results tha
 In a questionnaire at the end of the lecture 82 % of the 52 students found the notebook easy to understand, 92% found it easy to operate and 58% would recommend use of notebooks in future lectures. 
 
 For a full understanding of the notebook the students should 
-*	have basic knowledge of hydrogeology, i.e. should know about different types of aquifers and the main hydrogeological characteristics 
-*	know about technical and practical aspects of pumping tests
-*	have basic knowledge about curve fitting, and especially about different measures of fit 
-*	have a rough idea about iterative solvers and what to do, if they are not converging
+* have basic knowledge of hydrogeology, i.e. should know about different types of aquifers and the main hydrogeological characteristics 
+* know about technical and practical aspects of pumping tests
+* have basic knowledge about curve fitting, and especially about different measures of fit 
+* have a rough idea about iterative solvers and what to do, if they are not converging
 
 For the use of the notebook in the classroom the instructor should take skills and pre-knowledge of the participants into account. If the background knowledge in the class on one of the noted positions is low, additional teaching is required to bridge the knowledge gap. In a class of undergraduates this may take 3 to 4 lectures. The introduction of the notebook and how to operate it might require an additional lecture. As the notebook is designed to be user-friendly, a single lecture for the latter is sufficient. The notebook intro should explain the different types of cells in Jupyter, how to run them and what is obtained by running them. 
 
